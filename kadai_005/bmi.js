@@ -6,8 +6,8 @@ let weight = 68;
 //変数　身長
 let height = 1.7;
 
-//定数　BMIの計算式
-const bmi = weight / (height * height);
+//変数　BMIの計算式
+let bmi = weight / (height * height);
 
 //コンソール出力
 console.log(bmi);
