@@ -1,2 +1,2 @@
-const JPday = new Date("2024-10-12")
+const JPday = new Date()
 console.log(JPday.toLocaleDateString("ja-JP"));
