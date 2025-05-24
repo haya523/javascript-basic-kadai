@@ -1,2 +1,6 @@
-const JPday = new Date()
-console.log(JPday.toLocaleDateString("ja-JP"));
+let today = new Date();
+console.log(today.toLocaleDateString("ja-JP", {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}));
